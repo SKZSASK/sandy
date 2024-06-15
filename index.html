@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Normal calculater</title>
+    <link rel="shortcut icon" href="caculater photo.jpg" type="image/x-icon" />
+    <link href="css.css" rel="stylesheet" />
+    <style>
+      input {
+        text-align: center;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta
+      name="keywords"
+      content="calculator , basic calculator , normal calculator , Abir calculator , etc"
+    />
+    <meta name="refresh" content="5" />
+    <meta name="author" content="Md Zunayed Shahriar Abir" />
+  </head>
+  <body>
+    <form name="cal" border>
+      <input type="text" name="d" readonly />
+      <hr />
+      <input class="but" type="button" value="9" onclick="cal.d.value+='9'" />
+      <input class="but" type="button" value="8" onclick="cal.d.value+='8'" />
+      <input class="but" type="button" value="7" onclick="cal.d.value+='7'" />
+      <input class="but" type="button" value="+" onclick="cal.d.value+='+'" />
+      <br />
+      <br />
+      <input class="but" type="button" value="6" onclick="cal.d.value+='6'" />
+      <input class="but" type="button" value="5" onclick="cal.d.value+='5'" />
+      <input class="but" type="button" value="4" onclick="cal.d.value+='4'" />
+      <input class="but" type="button" value="-" onclick="cal.d.value+='-'" />
+      <br />
+      <br />
+      <input class="but" type="button" value="3" onclick="cal.d.value+='3'" />
+      <input class="but" type="button" value="2" onclick="cal.d.value+='2'" />
+      <input class="but" type="button" value="1" onclick="cal.d.value+='1'" />
+      <input class="but" type="button" value="*" onclick="cal.d.value+='*'" />
+      <br />
+      <br />
+      <input class="but" type="button" value="." onclick="cal.d.value+='.'" />
+      <input class="but" type="button" value="," onclick="cal.d.value+=','" />
+      <input class="but" type="button" value="/" onclick="cal.d.value+='/'" />
+      <br />
+      <br />
+      <input
+        class="but"
+        type="button"
+        value="="
+        onclick="cal.d.value=eval(cal.d.value)"
+      />
+      <input
+        class="backspace"
+        type="button"
+        value="de"
+        onclick="cal.d.value =''"
+      />
+    </form>
+    <script src="js.js"></script>
+    <py-script src="PYTHON BASIC/ABIR.PY"></py-script>
+  </body>
+</html>
